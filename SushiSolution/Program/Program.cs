@@ -119,6 +119,9 @@ namespace Program
                 case 3:
                     Exit();
                     break;
+                case 4:
+                    ShoppingCart.ShowCart();   // нужно реализовать в WriteLine 
+                    break;
             }
         }
     }
